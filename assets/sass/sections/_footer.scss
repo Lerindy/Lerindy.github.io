@@ -1,0 +1,20 @@
+/*--------------------------------------------------
+    ##Footer
+---------------------------------------------------*/
+.footer-area {
+	padding-top: 100px;
+}
+.copy-right {
+	border-top: 1px solid #ffffff;
+	padding: 35px 0 30px;
+	p {
+		color: #ffffff;
+		margin-bottom: 0;
+	}
+	span {
+		font-weight: 700;
+	}
+	i {
+		color: var(--main-color)
+	}
+}

@@ -1,0 +1,132 @@
+/*------------------------------------------------
+    blog style
+------------------------------------------------*/
+.single-blog-inner {
+	position: relative;
+    margin-bottom: 30px;
+	.details {
+		position: absolute;
+		left: 25px;
+		right: 25px;
+		bottom: 21px;
+		.name {
+			position: relative;
+			font-family: var(--body-font);
+			margin-bottom: 22px;
+			color: #fff;
+			&:after {
+			    position: absolute;
+			    content: "";
+			    width: 60px;
+			    height: 2px;
+			    bottom: 0px;
+			    left: 0;
+			    background: var(--main-color);
+			}
+		}
+		.title {
+			font-family: var(--body-font);
+			color: #fff;
+			margin-bottom: 17px;
+			transition: 0.3s;
+			&:hover {
+				color: var(--main-color);
+			}
+		}
+		p {
+			margin-bottom: 0;
+			color: #fff;
+			font-size: 15px;
+		}
+	}
+}
+
+
+.single-blog-card {
+  margin-bottom: 50px;
+}
+.single-blog-card .thumb {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+.single-blog-card h4 {
+	margin-bottom: 20px;
+}
+.single-blog-card .thumb .date {
+  height: 55px;
+  line-height: 56px;
+  padding: 0 30px;
+  background: var(--main-color);
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  z-index: 2;
+}
+
+
+/************ page navigation ************/
+.td-page-navigation {
+    .pagination {   
+        display: inline-flex;
+        margin: 10px 0 0 0;
+        .pagination-arrow {
+            a {
+                border: 0;
+                @include transition(all, .4s, ease);
+                &:hover {
+                    border: 0;
+                }
+            }
+        }
+        li {
+            a {
+                height: 45px;
+                width: 45px;
+                margin-right: 15px;
+                border: 0;
+                border-radius: 0;
+                background-color: #070d3a;
+                line-height: 50px;
+                text-align: center;
+                text-decoration: none;
+                @include transition(all, .4s, ease);
+                display: block;
+                color: rgba(255,255,255,0.8);
+                font-size: 18px;
+                &:active,   
+                &:focus,    
+                &:hover {
+                    background: var(--main-color);
+                    color: #fff;
+
+                }
+                &.active {
+                    background: var(--main-color);
+                }       
+            }
+        }
+    }
+}
+
+
+/*********** blog details ************/
+.blog-content-inner blockquote {
+  background: var(--main-color);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 0;
+  font-style: italic;
+  position: relative;
+  padding: 30px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 27px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.blog-content-inner p {
+  margin-bottom: 18px;
+}
