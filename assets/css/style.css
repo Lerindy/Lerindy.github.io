@@ -3465,3 +3465,71 @@ ul {
 .copy-right i {
     color: var(--main-color);
 }
+
+/*--------------------------------------------------
+    ##Custom CSS
+---------------------------------------------------*/
+
+.index_page_contact_p,
+.index_page_contact_link {
+    font-size: xx-large !important;
+}
+
+.index_page_contact_link {
+    text-decoration: underline;
+}
+
+.thanks-page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 73px;
+}
+
+.thanks-message {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    font-size: xx-large;
+}
+
+.contact-info.phone {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 450px) {
+    .thanks-message {
+        font-size: 33px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .contact-infos {
+        flex-direction: row;
+    }
+
+    .thanks-page-content {
+        margin-top: 184px;
+    }
+
+    .thanks-message {
+        font-size: 40px;
+    }
+}
