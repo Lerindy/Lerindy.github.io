@@ -3228,10 +3228,12 @@ ul {
 }
 
 /******* contact page ********/
-.single-input-inner {
+.single-input-inner,
+.contact-form-input {
     margin-bottom: 30px;
 }
-.single-input-inner input {
+.single-input-inner input,
+.contact-form-input {
     height: 60px;
     background: transparent;
     width: 100%;
@@ -3243,10 +3245,12 @@ ul {
 .single-input-inner input::-ms-input-placeholder {
     color: #5a5a5a;
 }
-.single-input-inner input::placeholder {
+.single-input-inner input::placeholder,
+.contact-form-input::placeholder {
     color: #5a5a5a;
 }
-.single-input-inner textarea {
+.single-input-inner textarea,
+textarea.contact-form-input {
     height: 130px;
     background: transparent;
     width: 100%;
