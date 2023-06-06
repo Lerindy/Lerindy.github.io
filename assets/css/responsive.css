@@ -650,6 +650,11 @@
         align-items: center;
         height: auto;
     }
+    .banner-area.style-one .thumb img {
+        width: 250px;
+        position: relative;
+        top: 180px;
+    }
     .banner-area.style-one .banner-inner {
         bottom: auto;
         left: auto !important;
@@ -659,6 +664,7 @@
     .banner-inner-wrap {
         padding: 130px 0 0 0;
         text-align: center;
+        height: 708px;
     }
     .banner-area.style-one .banner-inner h1 {
         font-size: 40px;
